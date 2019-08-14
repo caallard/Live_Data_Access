@@ -1,0 +1,28 @@
+{
+	"server":{
+		"port": 8000
+	},
+	"services":[
+		{
+			"serviceName": "vehicle_locations",
+			"type": "webservice",
+			"format": "JSON",
+			"url": "https://tfe-opendata.com/api/v1/vehicle_locations",
+			"updateTime": 10000,
+			"parallelRequest": 10,
+			"config":{
+				"id":"vehicle_id",
+				"path":"vehicles",
+				"fields":{
+					"latitudeField": "latitude", 
+					"longitudeField":"longitude",
+					"serviceNameField":"service_name"
+				}
+			}
+		}
+	
+	]
+
+
+
+}

@@ -1,0 +1,30 @@
+{
+  "name": "qslivedataservice",
+  "version": "1.0.0",
+  "description": "Qlik Sense Live Data Service, connect your live data to an qlik sense application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caallard/Live_Data_Access.git"
+  },
+  "keywords": [
+    "QlikSense",
+    "Qlik",
+    "Sense"
+  ],
+  "author": "caallard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caallard/Live_Data_Access/issues"
+  },
+  "homepage": "https://github.com/caallard/Live_Data_Access#readme",
+  "dependencies": {
+    "config": "^3.1.0",
+    "http": "0.0.0",
+    "sync-request": "^6.1.0",
+    "websocket": "^1.0.28"
+  }
+}
