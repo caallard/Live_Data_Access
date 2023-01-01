@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/caallard/Live_Data_Access#readme",
   "dependencies": {
-    "config": "^3.1.0",
+    "config": "^3.3.8",
     "http": "0.0.0",
     "sync-request": "^6.1.0",
     "websocket": "^1.0.28"
